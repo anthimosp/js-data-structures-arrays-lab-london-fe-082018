@@ -2,12 +2,15 @@
 const drivers = ["Milo", "Otis", "Garfield"]
 function destructivelyAppendDriver(append){ 
   append === drivers
-  drivers.push("Ralph")
+  append.push("Ralph")
 }
 function destructivelyPrependDriver(prepend){ 
   prepend === drivers
-  drivers.unshift("Bob")}
+  prepend.unshift("Bob")}
 function destructivelyRemoveLastDriver(removeLast) {
   removeLast === drivers
-  drivers.splice(2)}
+  removeLast.splice(2)}
+function destructivelyRemoveFirstDriver(removeFirst){
+  removeFirst === drivers
   
+}
