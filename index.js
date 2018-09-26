@@ -14,4 +14,5 @@ function prependDriver(name){
   drivers.pop(name)}
 function removeLastDriver(){
   drivers.splice(2)}
-function 
+function removeFirstDriver(){
+  drivers.shift(0)}
