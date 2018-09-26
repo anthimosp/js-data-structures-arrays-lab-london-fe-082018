@@ -11,7 +11,7 @@ function destructivelyRemoveFirstDriver(){
 function appendDriver(name){
   return [...drivers, name]}
 function prependDriver(name){
-  drivers.pop(name)}
+  return [name, ...drivers]}
 function removeLastDriver(){
   drivers.splice(2)}
 function removeFirstDriver(){
