@@ -1,8 +1,8 @@
 // Write your solution here!
 const drivers = ["Milo", "Otis", "Garfield"]
-function destructivelyAppendDriver(append){ 
+function destructivelyAppendDriver(name){ 
   append === drivers
-  append.push("Ralph")
+  append.push(name)
 }
 function destructivelyPrependDriver(prepend){ 
   prepend === drivers
