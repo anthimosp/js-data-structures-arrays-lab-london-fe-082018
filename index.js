@@ -15,4 +15,4 @@ function prependDriver(name){
 function removeLastDriver(){
   return drivers.slice(0)}
 function removeFirstDriver(){
-  drivers.shift(0)}
+  return drivers.slice(0)}
