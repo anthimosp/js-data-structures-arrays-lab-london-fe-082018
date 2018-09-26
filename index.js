@@ -2,4 +2,4 @@
 const drivers = ["Milo", "Otis", "Garfield"]
 function destructivelyAppendDriver(append){ drivers.push("Ralph")}
 function destructivelyPrependDriver(prepend){ drivers.unshift("Bob")}
-function destructivelyRemoveLastDriver(removeLast) {}
+function destructivelyRemoveLastDriver(removeLast) {drivers.OfSh}
