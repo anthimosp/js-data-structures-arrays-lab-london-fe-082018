@@ -12,3 +12,5 @@ function appendDriver(name){
   drivers.pop(name)}
 function prependDriver(name){
   drivers.pop(name)}
+function removeLastDriver(){
+  }
