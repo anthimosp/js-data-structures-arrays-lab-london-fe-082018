@@ -7,4 +7,5 @@ function destructivelyPrependDriver(prepend){
   prepend = drivers
   drivers.unshift("Bob")}
 function destructivelyRemoveLastDriver(removeLast) {
-  drivers.indexOf()}
+  removeLast = drivers
+  drivers.indexOf("")}
