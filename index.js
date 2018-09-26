@@ -12,5 +12,5 @@ function destructivelyRemoveLastDriver(removeLast) {
   removeLast.splice(2)}
 function destructivelyRemoveFirstDriver(removeFirst){
   removeFirst === drivers
-  
+  removeLast.
 }
