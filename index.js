@@ -7,7 +7,6 @@ function destructivelyPrependDriver(name){
   drivers.unshift(name)}
 function destructivelyRemoveLastDriver() {
   drivers.splice(2)}
-function destructivelyRemoveFirstDriver(removeFirst){
-  removeFirst === drivers
-  removeLast.
+function destructivelyRemoveFirstDriver(){
+  drivers.
 }
